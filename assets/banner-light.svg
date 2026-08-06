@@ -1,0 +1,47 @@
+<!-- name=assets/banner-light.svg?v=1 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="740" viewBox="0 0 1280 740" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Light banner for NAVEEN KUMAR">
+  <defs>
+    <linearGradient id="lg1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#f6f4ff"/>
+    </linearGradient>
+    <linearGradient id="laccent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffd7ef"/>
+      <stop offset="100%" stop-color="#e7dbff"/>
+    </linearGradient>
+    <clipPath id="avatarClipLight">
+      <rect x="852" y="86" rx="28" ry="28" width="320" height="420" />
+    </clipPath>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#lg1)"/>
+  <rect x="48" y="36" rx="26" ry="26" width="1184" height="668" fill="#ffffff" opacity="0.95" stroke="#efe8ff"/>
+  <!-- left terminal -->
+  <g transform="translate(60,72)">
+    <rect width="420" height="240" rx="12" ry="12" fill="#f5f6fb" stroke="#efe8ff" />
+    <text x="18" y="36" font-family="monospace" font-size="14" fill="#333">user@dev:~$</text>
+    <g transform="translate(18,56)" >
+      <text x="0" y="18" font-family="monospace" font-size="14" fill="#222">
+        <tspan class="cmd">cat README.md</tspan>
+      </text>
+      <rect x="0" y="26" width="8" height="2" fill="#222">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- name path simplified for light -->
+  <g transform="translate(120,160) scale(1.05)">
+    <path d="M40 150 C70 80 150 60 230 100 C290 130 350 200 400 180 C440 165 480 120 540 124 C620 132 680 186 740 184" fill="none" stroke="#6b21a8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-dasharray" from="0,2000" to="2000,0" dur="2.6s" begin="0.2s" fill="freeze" />
+    </path>
+  </g>
+
+  <!-- right avatar -->
+  <g transform="translate(852,86)">
+    <rect width="320" height="420" rx="28" ry="28" fill="#fff" stroke="#efe8ff"/>
+    <g clip-path="url(#avatarClipLight)">
+      <image x="852" y="86" width="320" height="420" preserveAspectRatio="xMidYMid slice" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=" />
+    </g>
+  </g>
+</svg>

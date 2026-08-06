@@ -1,0 +1,25 @@
+<!-- name=assets/langs.svg?v=1 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="160" viewBox="0 0 560 160" role="img" aria-label="languages bars">
+  <rect width="100%" height="100%" rx="12" fill="rgba(255,255,255,0.02)"/>
+  <g transform="translate(22,18)">
+    <text x="0" y="14" font-size="12" fill="#bfe7ff">Python</text>
+    <rect x="0" y="22" width="500" height="12" rx="6" fill="#071124"/>
+    <rect x="0" y="22" width="380" height="12" rx="6" fill="#ff4ecd">
+      <animate attributeName="width" from="0" to="380" dur="1.1s" fill="freeze"/>
+    </rect>
+
+    <text x="0" y="58" font-size="12" fill="#bfe7ff">JavaScript</text>
+    <rect x="0" y="66" width="500" height="12" rx="6" fill="#071124"/>
+    <rect x="0" y="66" width="320" height="12" rx="6" fill="#8b5cf6">
+      <animate attributeName="width" from="0" to="320" dur="1.1s" fill="freeze"/>
+    </rect>
+
+    <text x="0" y="102" font-size="12" fill="#bfe7ff">HTML / CSS</text>
+    <rect x="0" y="110" width="500" height="12" rx="6" fill="#071124"/>
+    <rect x="0" y="110" width="280" height="12" rx="6" fill="#38bdf8">
+      <animate attributeName="width" from="0" to="280" dur="1.1s" fill="freeze"/>
+    </rect>
+
+    <text x="0" y="138" font-size="10" fill="#9fbfe8">SQL</text>
+  </g>
+</svg>

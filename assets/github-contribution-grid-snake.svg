@@ -1,0 +1,44 @@
+<!-- name=assets/github-contribution-grid-snake.svg?v=1 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="120" viewBox="0 0 860 120" role="img" aria-label="Local contribution grid with snake">
+  <defs>
+    <style>
+      .day{transition:fill .3s}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" rx="12" fill="rgba(255,255,255,0.02)"/>
+  <!-- 52 weeks x 7 days simplified small grid -->
+  <g transform="translate(18,12)">
+    <!-- create a 14x5 grid for compactness -->
+    <!-- rows -->
+    <!-- just create some sample squares -->
+    <g id="grid">
+      <g transform="translate(0,0)">
+        <!-- week 1 -->
+        <rect x="0" y="0" width="12" height="12" rx="2" fill="#071124"/>
+        <rect x="16" y="0" width="12" height="12" rx="2" fill="#07354a"/>
+        <rect x="32" y="0" width="12" height="12" rx="2" fill="#0b6f87"/>
+        <rect x="48" y="0" width="12" height="12" rx="2" fill="#8b5cf6"/>
+        <rect x="64" y="0" width="12" height="12" rx="2" fill="#ff4ecd"/>
+      </g>
+      <g transform="translate(0,16)">
+        <rect x="0" y="0" width="12" height="12" rx="2" fill="#071124"/>
+        <rect x="16" y="0" width="12" height="12" rx="2" fill="#07354a"/>
+        <rect x="32" y="0" width="12" height="12" rx="2" fill="#0b6f87"/>
+        <rect x="48" y="0" width="12" height="12" rx="2" fill="#8b5cf6"/>
+        <rect x="64" y="0" width="12" height="12" rx="2" fill="#ff4ecd"/>
+      </g>
+      <g transform="translate(0,32)">
+        <rect x="0" y="0" width="12" height="12" rx="2" fill="#071124"/>
+        <rect x="16" y="0" width="12" height="12" rx="2" fill="#07354a"/>
+        <rect x="32" y="0" width="12" height="12" rx="2" fill="#0b6f87"/>
+        <rect x="48" y="0" width="12" height="12" rx="2" fill="#8b5cf6"/>
+        <rect x="64" y="0" width="12" height="12" rx="2" fill="#ff4ecd"/>
+      </g>
+    </g>
+
+    <!-- Snake path (decorative) -->
+    <path d="M6 6 L22 6 L38 6 L54 6 L70 6 L70 22 L70 38 L70 54 L54 54 L38 54" fill="none" stroke="#ff4ecd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-dashoffset" from="200" to="0" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

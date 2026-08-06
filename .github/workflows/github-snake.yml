@@ -1,0 +1,29 @@
+# name=github-snake.yml
+name: Generate GitHub Contribution Snake
+on:
+  schedule:
+    - cron: '0 3 * * *' # daily at 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  generate-snake:
+    name: Generate snake and commit
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run Platane/snk to generate snake
+        uses: platane/snk@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # output branch
+          commit_message: "chore(snake): daily update"
+          output_branch: output
+          colors: '["#0d1117","#ff4ecd","#8b5cf6","#38bdf8"]'
+          width: 1200
+          height: 120
+          locale: en
+          # path to output file within the repo
+          out_path: assets/github-contribution-grid-snake.svg

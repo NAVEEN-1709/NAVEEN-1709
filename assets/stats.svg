@@ -1,0 +1,42 @@
+<!-- name=assets/stats.svg?v=1 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="220" viewBox="0 0 860 220" role="img" aria-label="Local stats">
+  <defs>
+    <linearGradient id="sg" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" rx="12" fill="rgba(255,255,255,0.02)"/>
+  <!-- ring -->
+  <g transform="translate(60,110)">
+    <circle cx="0" cy="0" r="60" fill="#071024" stroke="#0b2340" stroke-width="6"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="url(#sg)" stroke-width="8" stroke-dasharray="376" stroke-dashoffset="376">
+      <animate attributeName="stroke-dashoffset" from="376" to="75" dur="1.8s" fill="freeze"/>
+    </circle>
+    <text x="-6" y="6" font-size="18" fill="#bfe7ff" font-family="sans-serif" font-weight="700">4y</text>
+    <text x="-17" y="26" font-size="10" fill="#9fbfe8">Experience</text>
+  </g>
+
+  <!-- rows -->
+  <g transform="translate(160,28)">
+    <g transform="translate(0,0)">
+      <text x="0" y="18" font-size="13" fill="#bfe7ff">Projects</text>
+      <rect x="0" y="22" width="560" height="10" rx="6" fill="#071124"/>
+      <rect x="0" y="22" width="320" height="10" rx="6" fill="#ff4ecd">
+        <animate attributeName="width" values="0;320" dur="1.2s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(0,40)">
+      <text x="0" y="18" font-size="13" fill="#bfe7ff">Learning</text>
+      <rect x="0" y="22" width="560" height="10" rx="6" fill="#071124"/>
+      <rect x="0" y="22" width="220" height="10" rx="6" fill="#8b5cf6">
+        <animate attributeName="width" values="0;220" dur="1.2s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(0,80)">
+      <text x="0" y="18" font-size="13" fill="#bfe7ff">Coffee</text>
+      <rect x="0" y="22" width="560" height="10" rx="6" fill="#071124"/>
+      <rect x="0" y="22" width="420" height="10" rx="6" fill="#38bdf8">
+        <animate attributeName="width" values="0;420" dur="1.2s" fill="freeze"/>
+      </rect>
+    </g>
+  </g>
+</svg>

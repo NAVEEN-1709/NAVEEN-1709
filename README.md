@@ -7,6 +7,13 @@
     <img src="assets/banner.svg?v=1" alt="Naveen Kumar — Developer" width="100%">
   </picture>
 </p>
+<p align="center">
+  <img
+    src="assets/lanyard.svg?v=1"
+    alt="Naveen Kumar Developer ID"
+    width="520"
+  />
+</p>
 
 <br>
 

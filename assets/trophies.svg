@@ -1,33 +1,63 @@
-<!-- name=assets/trophies.svg?v=1 -->
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="160" viewBox="0 0 560 160" role="img" aria-label="trophies">
-  <rect width="100%" height="100%" rx="12" fill="rgba(255,255,255,0.02)"/>
-  <g transform="translate(18,18)">
-    <g transform="translate(0,0)">
-      <rect x="0" y="0" width="120" height="120" rx="12" fill="#071124">
-        <animate attributeName="opacity" values="0;1" dur="0.9s" begin="0.2s" fill="freeze"/>
-      </rect>
-      <g transform="translate(24,24)">
-        <path d="M24 10 L30 30 L18 30 Z" fill="#ff4ecd" />
-        <circle cx="24" cy="48" r="10" fill="#8b5cf6">
-          <animateTransform attributeName="transform" attributeType="XML" type="scale" values="0.8;1.05;1" dur="1.1s" begin="0.5s" repeatCount="1"/>
-        </circle>
-      </g>
-    </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
 
-    <g transform="translate(136,0)">
-      <rect x="0" y="0" width="120" height="120" rx="12" fill="#071124" />
-      <g transform="translate(24,24)">
-        <path d="M24 8 L40 40 L8 40 Z" fill="#38bdf8" />
-        <circle cx="24" cy="48" r="10" fill="#bfe7ff" />
-      </g>
-    </g>
+<defs>
+  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#ff4ecd"/><stop offset=".5" stop-color="#c084fc"/><stop offset="1" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-100%" width="200%" height="300%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .ui{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .panel{fill:#11131b;stroke:#ffffff;stroke-opacity:.08}
+    .barbg{fill:#07152d}
+    .a{animation:in .7s cubic-bezier(.2,.8,.2,1) both}
+    .d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}.d4{animation-delay:.6s}.d5{animation-delay:.75s}
+    @keyframes in{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:translateX(0)}}
+    .pulse{animation:p 2.5s ease-in-out infinite}
+    @keyframes p{50%{opacity:.65}}
+    .shine{animation:s 4.5s ease-in-out infinite}
+    @keyframes s{0%,35%{transform:translateX(-520px);opacity:0}45%{opacity:.55}65%{transform:translateX(520px);opacity:0}100%{transform:translateX(520px);opacity:0}}
+  </style>
+</defs>
 
-    <g transform="translate(272,0)">
-      <rect x="0" y="0" width="120" height="120" rx="12" fill="#071124" />
-      <g transform="translate(24,24)">
-        <path d="M24 10 L33 30 L15 30 Z" fill="#8b5cf6" />
-        <circle cx="24" cy="48" r="10" fill="#ff4ecd" />
-      </g>
-    </g>
+<rect width="1000" height="300" rx="28" fill="#0d1117"/>
+<rect x="1" y="1" width="998" height="298" rx="27" fill="none" stroke="url(#pink)" stroke-opacity=".3"/>
+<text x="40" y="48" class="ui" font-size="22" font-weight="800" fill="#fff">Developer Milestones</text>
+<text x="40" y="70" class="mono" font-size="11" fill="#8e879c">A PERSONAL TROPHY WALL • NOT THIRD-PARTY STATS</text>
+
+<g transform="translate(45 100)">
+  <g class="a d1">
+    <rect width="205" height="145" rx="20" fill="#111b35" stroke="#ff4ecd" stroke-opacity=".45"/>
+    <text x="102" y="57" text-anchor="middle" font-size="42" fill="#ff4ecd" filter="url(#glow)">◆</text>
+    <text x="102" y="88" text-anchor="middle" class="ui" font-size="15" font-weight="800" fill="#fff">BUILD</text>
+    <text x="102" y="111" text-anchor="middle" class="mono" font-size="10" fill="#a9a2b7">Real projects</text>
   </g>
+  <g transform="translate(225)" class="a d2">
+    <rect width="205" height="145" rx="20" fill="#111b35" stroke="#38bdf8" stroke-opacity=".45"/>
+    <text x="102" y="57" text-anchor="middle" font-size="42" fill="#38bdf8" filter="url(#glow)">★</text>
+    <text x="102" y="88" text-anchor="middle" class="ui" font-size="15" font-weight="800" fill="#fff">LEARN</text>
+    <text x="102" y="111" text-anchor="middle" class="mono" font-size="10" fill="#a9a2b7">Keep improving</text>
+  </g>
+  <g transform="translate(450)" class="a d3">
+    <rect width="205" height="145" rx="20" fill="#111b35" stroke="#8b5cf6" stroke-opacity=".45"/>
+    <text x="102" y="57" text-anchor="middle" font-size="42" fill="#8b5cf6" filter="url(#glow)">▲</text>
+    <text x="102" y="88" text-anchor="middle" class="ui" font-size="15" font-weight="800" fill="#fff">SHIP</text>
+    <text x="102" y="111" text-anchor="middle" class="mono" font-size="10" fill="#a9a2b7">Turn ideas into software</text>
+  </g>
+  <g transform="translate(675)" class="a d4">
+    <rect width="205" height="145" rx="20" fill="#111b35" stroke="#ff4ecd" stroke-opacity=".45"/>
+    <text x="102" y="57" text-anchor="middle" font-size="42" fill="#ff4ecd" filter="url(#glow)">∞</text>
+    <text x="102" y="88" text-anchor="middle" class="ui" font-size="15" font-weight="800" fill="#fff">GROW</text>
+    <text x="102" y="111" text-anchor="middle" class="mono" font-size="10" fill="#a9a2b7">Learn • build • repeat</text>
+  </g>
+</g>
+
+<g class="shine"><rect x="-300" y="95" width="90" height="180" fill="url(#pink)" opacity=".14" transform="skewX(-15)"/></g>
 </svg>

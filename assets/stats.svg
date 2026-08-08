@@ -1,42 +1,56 @@
-<!-- name=assets/stats.svg?v=1 -->
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="220" viewBox="0 0 860 220" role="img" aria-label="Local stats">
-  <defs>
-    <linearGradient id="sg" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-  </defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
 
-  <rect width="100%" height="100%" rx="12" fill="rgba(255,255,255,0.02)"/>
-  <!-- ring -->
-  <g transform="translate(60,110)">
-    <circle cx="0" cy="0" r="60" fill="#071024" stroke="#0b2340" stroke-width="6"/>
-    <circle cx="0" cy="0" r="60" fill="none" stroke="url(#sg)" stroke-width="8" stroke-dasharray="376" stroke-dashoffset="376">
-      <animate attributeName="stroke-dashoffset" from="376" to="75" dur="1.8s" fill="freeze"/>
-    </circle>
-    <text x="-6" y="6" font-size="18" fill="#bfe7ff" font-family="sans-serif" font-weight="700">4y</text>
-    <text x="-17" y="26" font-size="10" fill="#9fbfe8">Experience</text>
-  </g>
+<defs>
+  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#ff4ecd"/><stop offset=".5" stop-color="#c084fc"/><stop offset="1" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-100%" width="200%" height="300%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .ui{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .panel{fill:#11131b;stroke:#ffffff;stroke-opacity:.08}
+    .barbg{fill:#07152d}
+    .a{animation:in .7s cubic-bezier(.2,.8,.2,1) both}
+    .d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}.d4{animation-delay:.6s}.d5{animation-delay:.75s}
+    @keyframes in{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:translateX(0)}}
+    .pulse{animation:p 2.5s ease-in-out infinite}
+    @keyframes p{50%{opacity:.65}}
+    .shine{animation:s 4.5s ease-in-out infinite}
+    @keyframes s{0%,35%{transform:translateX(-520px);opacity:0}45%{opacity:.55}65%{transform:translateX(520px);opacity:0}100%{transform:translateX(520px);opacity:0}}
+  </style>
+</defs>
 
-  <!-- rows -->
-  <g transform="translate(160,28)">
-    <g transform="translate(0,0)">
-      <text x="0" y="18" font-size="13" fill="#bfe7ff">Projects</text>
-      <rect x="0" y="22" width="560" height="10" rx="6" fill="#071124"/>
-      <rect x="0" y="22" width="320" height="10" rx="6" fill="#ff4ecd">
-        <animate attributeName="width" values="0;320" dur="1.2s" fill="freeze"/>
-      </rect>
-    </g>
-    <g transform="translate(0,40)">
-      <text x="0" y="18" font-size="13" fill="#bfe7ff">Learning</text>
-      <rect x="0" y="22" width="560" height="10" rx="6" fill="#071124"/>
-      <rect x="0" y="22" width="220" height="10" rx="6" fill="#8b5cf6">
-        <animate attributeName="width" values="0;220" dur="1.2s" fill="freeze"/>
-      </rect>
-    </g>
-    <g transform="translate(0,80)">
-      <text x="0" y="18" font-size="13" fill="#bfe7ff">Coffee</text>
-      <rect x="0" y="22" width="560" height="10" rx="6" fill="#071124"/>
-      <rect x="0" y="22" width="420" height="10" rx="6" fill="#38bdf8">
-        <animate attributeName="width" values="0;420" dur="1.2s" fill="freeze"/>
-      </rect>
-    </g>
-  </g>
+<rect width="1000" height="330" rx="28" fill="#0d1117"/>
+<rect x="1" y="1" width="998" height="328" rx="27" fill="none" stroke="url(#pink)" stroke-opacity=".35"/>
+<text x="40" y="48" class="ui" font-size="22" font-weight="800" fill="#fff">GitHub Dashboard</text>
+<text x="40" y="70" class="mono" font-size="11" fill="#8e879c">NAVEEN-1709 • BUILD • LEARN • SHIP</text>
+
+<!-- rank ring -->
+<g transform="translate(155 190)">
+ <circle r="88" fill="#09101f" stroke="#ffffff" stroke-opacity=".06" stroke-width="14"/>
+ <circle r="88" fill="none" stroke="#152a4b" stroke-width="14"/>
+ <circle r="88" fill="none" stroke="url(#blue)" stroke-width="14" stroke-linecap="round"
+         stroke-dasharray="410 553" transform="rotate(-90)" class="pulse"/>
+ <text y="-8" text-anchor="middle" class="ui" font-size="26" font-weight="800" fill="#dff5ff">DEV</text>
+ <text y="17" text-anchor="middle" class="mono" font-size="11" fill="#9ba9bf">PROFILE</text>
+</g>
+
+<!-- rows -->
+<g transform="translate(305 102)">
+ <text class="ui a d1" font-size="14" font-weight="700" fill="#fff">Projects <tspan x="570" fill="#ff8cdd">5</tspan></text>
+ <rect y="14" width="610" height="10" rx="5" class="barbg"/><rect y="14" width="420" height="10" rx="5" fill="url(#pink)" class="a d1"/>
+ <text y="66" class="ui a d2" font-size="14" font-weight="700" fill="#fff">Learning <tspan x="570" fill="#c9b5ff">85%</tspan></text>
+ <rect y="80" width="610" height="10" rx="5" class="barbg"/><rect y="80" width="520" height="10" rx="5" fill="#8b5cf6" class="a d2"/>
+ <text y="132" class="ui a d3" font-size="14" font-weight="700" fill="#fff">Build Focus <tspan x="570" fill="#8ddfff">90%</tspan></text>
+ <rect y="146" width="610" height="10" rx="5" class="barbg"/><rect y="146" width="550" height="10" rx="5" fill="#38bdf8" class="a d3"/>
+ <text y="198" class="ui a d4" font-size="14" font-weight="700" fill="#fff">AURA AI <tspan x="570" fill="#ff8cdd">ACTIVE</tspan></text>
+ <rect y="212" width="610" height="10" rx="5" class="barbg"/><rect y="212" width="360" height="10" rx="5" fill="url(#blue)" class="a d4"/>
+</g>
 </svg>

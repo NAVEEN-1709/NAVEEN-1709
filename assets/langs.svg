@@ -1,25 +1,45 @@
-<!-- name=assets/langs.svg?v=1 -->
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="160" viewBox="0 0 560 160" role="img" aria-label="languages bars">
-  <rect width="100%" height="100%" rx="12" fill="rgba(255,255,255,0.02)"/>
-  <g transform="translate(22,18)">
-    <text x="0" y="14" font-size="12" fill="#bfe7ff">Python</text>
-    <rect x="0" y="22" width="500" height="12" rx="6" fill="#071124"/>
-    <rect x="0" y="22" width="380" height="12" rx="6" fill="#ff4ecd">
-      <animate attributeName="width" from="0" to="380" dur="1.1s" fill="freeze"/>
-    </rect>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
 
-    <text x="0" y="58" font-size="12" fill="#bfe7ff">JavaScript</text>
-    <rect x="0" y="66" width="500" height="12" rx="6" fill="#071124"/>
-    <rect x="0" y="66" width="320" height="12" rx="6" fill="#8b5cf6">
-      <animate attributeName="width" from="0" to="320" dur="1.1s" fill="freeze"/>
-    </rect>
+<defs>
+  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#ff4ecd"/><stop offset=".5" stop-color="#c084fc"/><stop offset="1" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-100%" width="200%" height="300%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .ui{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .panel{fill:#11131b;stroke:#ffffff;stroke-opacity:.08}
+    .barbg{fill:#07152d}
+    .a{animation:in .7s cubic-bezier(.2,.8,.2,1) both}
+    .d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}.d4{animation-delay:.6s}.d5{animation-delay:.75s}
+    @keyframes in{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:translateX(0)}}
+    .pulse{animation:p 2.5s ease-in-out infinite}
+    @keyframes p{50%{opacity:.65}}
+    .shine{animation:s 4.5s ease-in-out infinite}
+    @keyframes s{0%,35%{transform:translateX(-520px);opacity:0}45%{opacity:.55}65%{transform:translateX(520px);opacity:0}100%{transform:translateX(520px);opacity:0}}
+  </style>
+</defs>
 
-    <text x="0" y="102" font-size="12" fill="#bfe7ff">HTML / CSS</text>
-    <rect x="0" y="110" width="500" height="12" rx="6" fill="#071124"/>
-    <rect x="0" y="110" width="280" height="12" rx="6" fill="#38bdf8">
-      <animate attributeName="width" from="0" to="280" dur="1.1s" fill="freeze"/>
-    </rect>
+<rect width="1000" height="330" rx="28" fill="#0d1117"/>
+<rect x="1" y="1" width="998" height="328" rx="27" fill="none" stroke="url(#blue)" stroke-opacity=".28"/>
+<text x="40" y="48" class="ui" font-size="22" font-weight="800" fill="#fff">Language Focus</text>
+<text x="40" y="70" class="mono" font-size="11" fill="#8e879c">SKILLS • CURRENT TECH STACK</text>
 
-    <text x="0" y="138" font-size="10" fill="#9fbfe8">SQL</text>
-  </g>
+<g transform="translate(40 105)">
+  <text y="0" class="mono" font-size="13" fill="#fff">Python</text>
+  <rect y="14" width="900" height="14" rx="7" class="barbg"/><rect y="14" width="720" height="14" rx="7" fill="url(#pink)" class="a d1"/><text x="870" y="26" text-anchor="end" class="mono" font-size="11" fill="#ffb5e8">80%</text>
+  <text y="58" class="mono" font-size="13" fill="#fff">JavaScript</text>
+  <rect y="72" width="900" height="14" rx="7" class="barbg"/><rect y="72" width="585" height="14" rx="7" fill="#8b5cf6" class="a d2"/><text x="870" y="84" text-anchor="end" class="mono" font-size="11" fill="#cdbbff">65%</text>
+  <text y="116" class="mono" font-size="13" fill="#fff">HTML / CSS</text>
+  <rect y="130" width="900" height="14" rx="7" class="barbg"/><rect y="130" width="495" height="14" rx="7" fill="#38bdf8" class="a d3"/><text x="870" y="142" text-anchor="end" class="mono" font-size="11" fill="#9de7ff">55%</text>
+  <text y="174" class="mono" font-size="13" fill="#fff">SQL</text>
+  <rect y="188" width="900" height="14" rx="7" class="barbg"/><rect y="188" width="405" height="14" rx="7" fill="#ff4ecd" class="a d4"/><text x="870" y="200" text-anchor="end" class="mono" font-size="11" fill="#ffb5e8">45%</text>
+</g>
 </svg>

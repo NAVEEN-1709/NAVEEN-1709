@@ -1,10 +1,12 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=1">
-  <img src="assets/banner-light.svg?v=1" alt="Naveen Kumar — Developer" width="100%">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=1">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=1">
+    <img src="assets/banner.svg?v=1" alt="Naveen Kumar — Developer" width="100%">
+  </picture>
+</p>
 
 <br>
 

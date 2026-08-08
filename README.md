@@ -1,155 +1,159 @@
-```html
-<!-- name=README.md -->
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>NAVEEN KUMAR — Developer</title>
-<style>
-  :root{
-    --bg:#0d1117;
-    --card: rgba(255,255,255,0.04);
-    --muted: #9aa4b2;
-    --accent-pink: #ff4ecd;
-    --accent-purple: #8b5cf6;
-    --accent-blue: #38bdf8;
-    --glass: rgba(255,255,255,0.03);
-    --glass-2: rgba(255,255,255,0.02);
-    color-scheme: dark;
-  }
-  html,body{height:100%;margin:0;background:var(--bg);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;display:flex;align-items:center;justify-content:center}
-  .wrap{max-width:980px;padding:28px;text-align:center;color:#dbe7ff;}
-  .centered{margin:0 auto;display:flex;flex-direction:column;gap:22px;align-items:center;justify-content:center}
-  .banner{width:100%;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(2,6,23,0.7);border:1px solid rgba(255,255,255,0.03)}
-  .meta{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}
-  .pill{background:linear-gradient(90deg,var(--accent-pink),var(--accent-purple));padding:8px 14px;border-radius:999px;color:#041024;font-weight:600;box-shadow:0 6px 18px rgba(139,92,246,0.12);font-size:13px}
-  .typed{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace; color:#bfe7ff; background:rgba(255,255,255,0.02); padding:8px 12px;border-radius:8px; display:inline-block}
-  .section{width:100%;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:12px;padding:18px}
-  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;align-items:start}
-  @media (max-width:880px){.grid{grid-template-columns:1fr}}
-  .skills{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
-  .skill{background:var(--glass);padding:10px 14px;border-radius:12px;color:#e9f2ff;font-weight:600;transition:transform .28s,box-shadow .28s}
-  .skill:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(56,189,248,0.12)}
-  .icons{display:flex;gap:8px;justify-content:center;align-items:center}
-  .svg-inline{max-width:100%;height:auto;display:block;margin:0 auto}
-  .centerlinks{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-  a.badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;background:linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));color:#dbe7ff;text-decoration:none}
-  /* Typing animations */
-  .typewriter{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,monospace; color:#bfe7ff; display:inline-block; overflow:hidden; border-right:.14em solid rgba(190,231,255,0.4); white-space:nowrap; letter-spacing:.03em; animation:typing 3s steps(30,end) infinite, blink-caret .7s step-end infinite}
-  @keyframes typing{0%{width:0}50%{width:22ch}100%{width:22ch}}
-  @keyframes blink-caret{50%{border-color:transparent}}
-  /* simple center footer */
-  footer{margin-top:18px;color:var(--muted);font-size:13px}
-  /* light theme switch preview inside README uses picture element */
-  /* small counters */
-  .footer-row{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:10px}
-  .footer-row img{height:34px;border-radius:8px}
-  .lead{color:#e4f3ff;font-size:15px}
-  .about-list{list-style:none;padding:0;margin:12px 0;display:inline-block;text-align:left}
-  .about-list li{padding:6px 0}
-  .stats-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-  .stat-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:10px 14px;border-radius:12px;min-width:120px}
-</style>
-</head>
-<body>
-  <div class="wrap">
-    <div class="centered">
-      <!-- Banner with dark/light using local assets -->
-      <picture class="banner">
-        <source srcset="./assets/banner-light.svg?v=1" media="(prefers-color-scheme:light)">
-        <img src="./assets/banner.svg?v=1" alt="NAVEEN KUMAR banner" style="width:100%;height:auto;display:block">
-      </picture>
+<div align="center">
 
-      <div style="height:16px"></div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=1">
+  <img src="assets/banner-light.svg?v=1" alt="Naveen Kumar — Developer" width="100%">
+</picture>
 
-      <div class="meta">
-        <div class="pill">NAVEEN KUMAR</div>
-        <div class="pill">Developer</div>
-        <div class="pill">MCA</div>
-        <div class="typed">"Turning ideas into intelligent software, one commit at a time."</div>
-      </div>
+<br>
 
-      <div style="height:14px"></div>
+<img src="assets/lanyard.svg?v=1" alt="Naveen Kumar developer ID card" width="420">
 
-      <div class="section grid" role="region" aria-label="about and skills">
-        <div>
-          <h3 style="margin:0;color:#fff">About Me</h3>
-          <p class="lead">I build thoughtful, well-tested software and delightful front-end experiences. Always learning, building AURA AI, and contributing to open-source.</p>
-          <ul class="about-list">
-            <li>• MCA Graduate</li>
-            <li>• Python Developer</li>
-            <li>• Web Development</li>
-            <li>• Always Learning</li>
-            <li>• Building AURA AI</li>
-          </ul>
+<br><br>
 
-          <div style="height:10px"></div>
+👨‍💻 Developer • Python • Web Development • AI
 
-          <h4 style="margin-bottom:8px">Tech Stack</h4>
-          <div class="skills" aria-hidden="false">
-            <span class="skill">Python</span>
-            <span class="skill">JavaScript</span>
-            <span class="skill">HTML</span>
-            <span class="skill">CSS</span>
-            <span class="skill">SQL</span>
-          </div>
+<p>
+  <a href="mailto:nk9997201@gmail.com">
+    <img src="https://img.shields.io/badge/Email-nk9997201%40gmail.com-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://github.com/NAVEEN-1709">
+    <img src="https://img.shields.io/badge/GitHub-NAVEEN--1709-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
-          <div style="height:12px"></div>
+<p><i>“Turning ideas into intelligent software, one commit at a time.”</i></p>
 
-          <h4 style="margin-bottom:8px">Contact</h4>
-          <div class="centerlinks">
-            <a class="badge" href="mailto:nk9997201@gmail.com">✉️ Email</a>
-            <a class="badge" href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener">🔗 LinkedIn</a>
-            <a class="badge" href="https://your-portfolio.example" target="_blank" rel="noopener">🖥️ Portfolio</a>
-            <a class="badge" href="https://github.com/NAVEEN-1709" target="_blank" rel="noopener">🐙 GitHub</a>
-          </div>
-        </div>
+</div>
 
-        <div>
-          <h3 style="margin:0;color:#fff">Projects & Stats</h3>
-          <p class="lead">Local project summaries, achievements and live stats below (SVG-based).</p>
+👋 About Me
 
-          <div style="margin:10px 0">
-            <img class="svg-inline" src="./assets/stats.svg?v=1" alt="local stats svg" />
-          </div>
+Hi, I'm Naveen Kumar, a developer who enjoys turning ideas into practical software.
 
-          <div style="margin-top:8px">
-            <img class="svg-inline" src="./assets/langs.svg?v=1" alt="languages svg" />
-          </div>
+🎓 MCA Graduate
 
-          <div style="margin-top:8px">
-            <img class="svg-inline" src="./assets/trophies.svg?v=1" alt="trophies svg" />
-          </div>
-        </div>
-      </div>
+🐍 Building with Python
 
-      <div style="height:16px"></div>
+🌐 Exploring JavaScript and modern web development
 
-      <div class="section" style="display:flex;gap:12px;flex-direction:column;align-items:center">
-        <h3 style="margin:0">Contribution & Snake</h3>
-        <p class="lead">Contribution heatmap (generated locally) and a GitHub-snake SVG.</p>
+🗄️ Working with SQL and data
 
-        <div style="width:100%;max-width:860px;margin:12px auto">
-          <img class="svg-inline" src="./assets/github-contribution-grid-snake.svg?v=1" alt="contribution grid snake" />
-        </div>
-      </div>
+🤖 Building AURA AI, a personal AI-assistant project
 
-      <div style="height:10px"></div>
+🚀 Always learning, experimenting, and improving
 
-      <div class="section">
-        <h3 style="margin:0">Social & Visitors</h3>
-        <div class="footer-row">
-          <a class="badge" href="https://github.com/NAVEEN-1709"><img src="./assets/banner.svg?v=1" alt="mini" style="height:30px;border-radius:6px"> GitHub</a>
-          <span class="badge">👥 Visitors: <strong>—</strong></span>
-          <span class="badge">📫 Email: nk9997201@gmail.com</span>
-        </div>
-      </div>
+🧰 Tech Stack
 
-      <footer>
-        © 2026 NAVEEN KUMAR • Turning ideas into intelligent software, one commit at a time.
-      </footer>
-    </div>
-  </div>
-</body>
-</html>
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=ffde57" alt="Python">
+<img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript">
+<img src="https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=e34f26" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572b6" alt="CSS3">
+<img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=38bdf8" alt="SQL">
+<img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=f05032" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub">
+
+</div>
+
+🚀 Featured Projects
+
+<div align="center">
+
+Project
+
+What it does
+
+Stack
+
+Resume Screening System
+
+Hybrid resume/job matching using NLP, ML classification and semantic similarity
+
+Python · Flask · NLP · BERT
+
+AURA AI
+
+Personal AI-agent project focused on natural interaction and laptop automation
+
+Python · AI
+
+Geometry Calculator
+
+Web application for calculating 2D/3D geometry properties with visualizations
+
+Flask · HTML · CSS · JavaScript
+
+Stroke Prediction
+
+Machine-learning project for predicting stroke risk from structured data
+
+Python · Pandas · Scikit-learn
+
+</div>
+
+💡 Project links can be added as soon as the final repository URLs are confirmed.
+
+📊 GitHub Dashboard
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats.svg?v=1">
+  <img src="assets/stats.svg?v=1" width="49%" alt="GitHub statistics">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="assets/langs.svg?v=1">
+  <img src="assets/langs.svg?v=1" width="49%" alt="Programming language statistics">
+</picture>
+
+<br>
+
+<img src="assets/trophies.svg?v=1" width="90%" alt="GitHub achievements">
+
+</div>
+
+🐍 Contribution Activity
+
+<div align="center">
+
+<img src="assets/github-contribution-grid-snake.svg?v=1" alt="GitHub contribution snake animation" width="100%">
+
+</div>
+
+📈 My GitHub Journey
+
+Learn → Build → Break → Debug → Improve → Ship → Repeat
+
+I believe the best way to learn technology is to build real things, understand why they work, and keep improving them.
+
+🤝 Connect With Me
+
+<div align="center">
+
+<a href="mailto:nk9997201@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+<a href="https://github.com/NAVEEN-1709">
+  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+
+</div>
+
+<!-- Add your LinkedIn and portfolio links here when ready. -->
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=NAVEEN-1709&label=PROFILE%20VIEWS&color=ff4ecd&style=for-the-badge" alt="Profile views">
+
+<br><br>
+
+💜 Keep Coding • Keep Growing • Keep Building
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%" alt="Footer">
+
+</div>

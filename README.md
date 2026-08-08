@@ -1,27 +1,18 @@
 <div align="center">
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=1">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=1">
-    <img src="assets/banner.svg?v=1" alt="Naveen Kumar — Developer" width="100%">
-  </picture>
-</p>
-<p align="center">
-  <img
-    src="assets/lanyard.svg?v=1"
-    alt="Naveen Kumar Developer ID"
-    width="520"
-  />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=1">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=1">
+  <img src="assets/banner.svg?v=1" alt="Naveen Kumar — Developer" width="100%">
+</picture>
 
 <br>
 
-<img src="assets/lanyard.svg?v=1" alt="Naveen Kumar developer ID card" width="420">
+<img src="assets/lanyard.svg?v=1" alt="Naveen Kumar developer ID card" width="520">
 
 <br><br>
 
-👨‍💻 Developer • Python • Web Development • AI
+<h3>👨‍💻 Developer • Python • Web Development • AI</h3>
 
 <p>
   <a href="mailto:nk9997201@gmail.com">
@@ -32,7 +23,7 @@
   </a>
 </p>
 
-<p><i>“Turning ideas into intelligent software, one commit at a time.”</i></p>
+<p><i>"Turning ideas into intelligent software, one commit at a time."</i></p>
 
 </div>
 
@@ -68,41 +59,53 @@ Hi, I'm Naveen Kumar, a developer who enjoys turning ideas into practical softwa
 
 🚀 Featured Projects
 
-<div align="center">
-
 Project
 
 What it does
 
 Stack
 
-Resume Screening System
-
-Hybrid resume/job matching using NLP, ML classification and semantic similarity
-
-Python · Flask · NLP · BERT
-
-AURA AI
+🤖 AURA AI
 
 Personal AI-agent project focused on natural interaction and laptop automation
 
 Python · AI
 
-Geometry Calculator
+📄 Resume Screening System
+
+Hybrid resume/job matching using NLP, ML classification and semantic similarity
+
+Python · Flask · NLP · BERT
+
+📐 Geometry Calculator
 
 Web application for calculating 2D/3D geometry properties with visualizations
 
 Flask · HTML · CSS · JavaScript
 
-Stroke Prediction
+🧠 Stroke Prediction
 
 Machine-learning project for predicting stroke risk from structured data
 
 Python · Pandas · Scikit-learn
 
+📊 Customer Churn Prediction
+
+ML project for identifying patterns associated with customer churn
+
+Python · Pandas · Scikit-learn
+
+💡 My Philosophy
+
+<div align="center">
+
+"Turning ideas into intelligent software, one commit at a time."
+
+Learn → Build → Break → Debug → Improve → Ship → Repeat
+
 </div>
 
-💡 Project links can be added as soon as the final repository URLs are confirmed.
+I believe the best way to learn technology is to build real things, understand why they work, and keep improving them.
 
 📊 GitHub Dashboard
 
@@ -113,7 +116,6 @@ Python · Pandas · Scikit-learn
   <source media="(prefers-color-scheme: light)" srcset="assets/stats.svg?v=1">
   <img src="assets/stats.svg?v=1" width="49%" alt="GitHub statistics">
 </picture>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/langs.svg?v=1">
   <source media="(prefers-color-scheme: light)" srcset="assets/langs.svg?v=1">
@@ -134,12 +136,6 @@ Python · Pandas · Scikit-learn
 
 </div>
 
-📈 My GitHub Journey
-
-Learn → Build → Break → Debug → Improve → Ship → Repeat
-
-I believe the best way to learn technology is to build real things, understand why they work, and keep improving them.
-
 🤝 Connect With Me
 
 <div align="center">
@@ -153,7 +149,7 @@ I believe the best way to learn technology is to build real things, understand w
 
 </div>
 
-<!-- Add your LinkedIn and portfolio links here when ready. -->
+<!-- Add LinkedIn and portfolio links here when they are ready. -->
 
 <div align="center">
 
@@ -162,7 +158,5 @@ I believe the best way to learn technology is to build real things, understand w
 <br><br>
 
 💜 Keep Coding • Keep Growing • Keep Building
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%" alt="Footer">
 
 </div>

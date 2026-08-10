@@ -9,11 +9,9 @@
     media="(prefers-color-scheme: dark)"
     srcset="assets/banner.svg?v=8"
   />
-  <img
-    src="assets/banner.svg?v=8"
-    width="100%"
-    alt="Naveen Kumar — Developer"
-  />
+  <img src="assets/banner.svg?v=13"
+     width="100%"
+     alt="Naveen Kumar ♥ — Python Developer">
 </picture>
 
 <br>

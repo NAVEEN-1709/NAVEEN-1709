@@ -1,46 +1,41 @@
 <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="assets/banner-light.svg?v=8"
-  />
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="assets/banner.svg?v=8"
-  />
-  <img src="assets/banner.svg?v=13"
-     width="100%"
-     alt="Naveen Kumar ♥ — Python Developer">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=13">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=13">
+    <img src="assets/banner.svg?v=13"
+         width="100%"
+         alt="Naveen Kumar — Developer">
+  </picture>
+</p>
 
 <br>
 
-<p>
-  <img src="assets/lanyard.svg?v=8" width="430" alt="Naveen Kumar Developer ID">
-</p>
+<img src="assets/lanyard.svg?v=13"
+     width="420"
+     alt="Naveen Kumar Developer ID">
 
-<p>
-  <b>👨‍💻 Developer</b>
-  •
-  <b>🐍 Python</b>
-  •
-  <b>🌐 Web Development</b>
-  •
-  <b>🤖 AI</b>
-</p>
+<br><br>
+
+### ✦ Developer · Python · Web Development · AI ✦
 
 <p>
   <a href="mailto:nk9997201@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/Email-nk9997201%40gmail.com-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white"
+         alt="Email">
   </a>
+
   <a href="https://github.com/NAVEEN-1709">
-    <img src="https://img.shields.io/badge/GitHub-NAVEEN--1709-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-NAVEEN--1709-8b5cf6?style=for-the-badge&logo=github&logoColor=white"
+         alt="GitHub">
   </a>
 </p>
 
 <p>
-  <i>"Turning ideas into intelligent software, one commit at a time."</i>
+  <i>
+    "Turning ideas into intelligent software, one commit at a time."
+  </i>
 </p>
 
 </div>
@@ -65,17 +60,23 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <div align="center">
 
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=ffde57" alt="Python">
+
 <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript">
+
 <img src="https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=e34f26" alt="HTML5">
+
 <img src="https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572b6" alt="CSS3">
+
 <img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=38bdf8" alt="SQL">
 
-<br>
+<img src="https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=ffffff" alt="Flask">
 
-<img src="https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
 <img src="https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=150458" alt="Pandas">
-<img src="https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=f7931e" alt="Scikit Learn">
+
+<img src="https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=f7931e" alt="Scikit-Learn">
+
 <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=f05032" alt="Git">
+
 <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub">
 
 </div>
@@ -104,9 +105,9 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 
 ### **Learn → Build → Break → Debug → Improve → Ship → Repeat**
 
-</div>
-
 > I believe the best way to learn technology is to build real things, understand why they work, and keep improving them.
+
+</div>
 
 ---
 
@@ -115,26 +116,28 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=8">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats.svg?v=8">
-  <img src="assets/stats.svg?v=8" width="95%" alt="Naveen Kumar profile dashboard">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=13">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats.svg?v=13">
+  <img src="assets/stats.svg?v=13"
+       width="90%"
+       alt="Naveen Kumar developer dashboard">
 </picture>
 
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/langs.svg?v=8">
-  <source media="(prefers-color-scheme: light)" srcset="assets/langs.svg?v=8">
-  <img src="assets/langs.svg?v=8" width="80%" alt="Naveen Kumar technology skills">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs.svg?v=13">
+  <source media="(prefers-color-scheme: light)" srcset="assets/langs.svg?v=13">
+  <img src="assets/langs.svg?v=13"
+       width="90%"
+       alt="Naveen Kumar technology skills">
 </picture>
 
 <br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/trophies.svg?v=8">
-  <source media="(prefers-color-scheme: light)" srcset="assets/trophies.svg?v=8">
-  <img src="assets/trophies.svg?v=8" width="90%" alt="Naveen Kumar developer milestones">
-</picture>
+<img src="assets/trophies.svg?v=13"
+     width="90%"
+     alt="Developer milestones">
 
 </div>
 
@@ -144,11 +147,29 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 
 <div align="center">
 
-<img
-  src="assets/github-contribution-grid-snake.svg?v=8"
-  width="100%"
-  alt="GitHub contribution snake animation"
-/>
+<img src="assets/github-contribution-grid-snake.svg?v=13"
+     width="100%"
+     alt="GitHub contribution snake">
+
+</div>
+
+---
+
+## 📈 My GitHub Journey
+
+<div align="center">
+
+**Learn → Build → Break → Debug → Improve → Ship → Repeat**
+
+<br>
+
+💻 Build real projects  
+↓  
+🧠 Learn from problems  
+↓  
+🐛 Debug and improve  
+↓  
+🚀 Ship better software
 
 </div>
 
@@ -159,23 +180,35 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <div align="center">
 
 <a href="mailto:nk9997201@gmail.com">
-  <img src="https://img.shields.io/badge/Email-nk9997201%40gmail.com-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white"
+       alt="Email">
 </a>
 
 <a href="https://github.com/NAVEEN-1709">
-  <img src="https://img.shields.io/badge/GitHub-NAVEEN--1709-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-Follow%20Me-8b5cf6?style=for-the-badge&logo=github&logoColor=white"
+       alt="GitHub">
 </a>
 
-</div>
+<!-- Add LinkedIn when available -->
+<!--
+<a href="YOUR_LINKEDIN_URL">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+       alt="LinkedIn">
+</a>
+-->
 
-<br>
+<!-- Add portfolio when available -->
+<!--
+<a href="YOUR_PORTFOLIO_URL">
+  <img src="https://img.shields.io/badge/Portfolio-Visit-ff4ecd?style=for-the-badge&logo=google-chrome&logoColor=white"
+       alt="Portfolio">
+</a>
+-->
 
-<div align="center">
+<br><br>
 
-<img
-  src="https://komarev.com/ghpvc/?username=NAVEEN-1709&label=PROFILE%20VIEWS&color=ff4ecd&style=for-the-badge"
-  alt="Profile views"
-/>
+<img src="https://komarev.com/ghpvc/?username=NAVEEN-1709&label=PROFILE%20VIEWS&color=ff4ecd&style=for-the-badge"
+     alt="Profile views">
 
 </div>
 
@@ -185,18 +218,14 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 
 ### 💜 Keep Coding • Keep Growing • Keep Building
 
-<br>
-
 **NAVEEN-1709**
 
 <i>Turning ideas into intelligent software, one commit at a time.</i>
 
 <br><br>
 
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer"
-  width="100%"
-  alt="Footer"
-/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer"
+     width="100%"
+     alt="Footer">
 
 </div>

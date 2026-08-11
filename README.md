@@ -1,11 +1,18 @@
 <div align="center">
 
-<!-- ✨ Animated Banner ✨ -->
+<!-- ✨ Animated Developer Banner ✨ -->
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg?v=15">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=15">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/banner.svg?v=16"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/banner-light.svg?v=16"
+  />
   <img
-    src="./assets/banner.svg?v=15"
+    src="./assets/banner.svg?v=16"
     alt="Naveen Kumar — Developer"
     width="100%"
   />
@@ -18,21 +25,23 @@
 <table align="center" border="0">
 <tr>
 
-<!-- 🪪 Developer Lanyard -->
+<!-- 🪪 Developer ID -->
+
 <td width="38%" align="center" valign="middle">
 
 <img
-  src="./assets/lanyard.svg?v=15"
+  src="./assets/lanyard.svg?v=16"
   alt="Naveen Kumar Developer ID"
   width="330"
 />
 
 </td>
 
-<!-- 🚀 Projects -->
+<!-- 🚀 Featured Projects -->
+
 <td width="62%" valign="middle">
 
-### 🚀 Featured Projects
+<h3>🚀 Featured Projects</h3>
 
 | 💻 Project | 🧰 Technologies |
 |:---|:---:|
@@ -130,8 +139,6 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
 | Project | Description | Technologies |
 |:---|:---|:---:|
 | 🤖 **AURA AI** | Personal AI-agent project focused on natural interaction and laptop automation | `Python` · `AI` |
@@ -139,8 +146,6 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 | 📐 **Geometry Calculator** | Web application for calculating 2D/3D geometry properties with visualizations | `Flask` · `HTML` · `CSS` · `JavaScript` |
 | 🧠 **Stroke Prediction** | Machine-learning project for predicting stroke risk from structured data | `Python` · `Pandas` · `Scikit-Learn` |
 | 📊 **Customer Churn Prediction** | ML project for identifying customer churn patterns | `Python` · `Pandas` · `Scikit-Learn` |
-
-</div>
 
 ---
 
@@ -150,8 +155,7 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 
 ### **Learn → Build → Break → Debug → Improve → Ship → Repeat**
 
-> I believe the best way to learn technology is to build real things,
-> understand why they work, and keep improving them.
+> I believe the best way to learn technology is to build real things, understand why they work, and keep improving them.
 
 </div>
 
@@ -164,11 +168,11 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="./assets/stats.svg?v=15"
+    srcset="./assets/stats.svg?v=16"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="./assets/stats.svg?v=15"
+    srcset="./assets/stats.svg?v=16"
   />
   <img
     src="./assets/stats.svg?v=16"
@@ -182,14 +186,14 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="./assets/langs.svg?v=15"
+    srcset="./assets/langs.svg?v=16"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="./assets/langs.svg?v=15"
+    srcset="./assets/langs.svg?v=16"
   />
   <img
-    src="./assets/langs.svg?v=15"
+    src="./assets/langs.svg?v=16"
     width="90%"
     alt="Naveen Kumar Technology Skills"
   />
@@ -198,9 +202,9 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <br/><br/>
 
 <img
-  src="./assets/trophies.svg?v=15"
+  src="./assets/trophies.svg?v=16"
   width="90%"
-  alt="Developer Milestones"
+  alt="Naveen Kumar Developer Milestones"
 />
 
 </div>
@@ -212,7 +216,7 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <div align="center">
 
 <img
-  src="./assets/github-contribution-grid-snake.svg?v=15"
+  src="./assets/github-contribution-grid-snake.svg?v=16"
   width="100%"
   alt="Naveen Kumar GitHub Contribution Snake"
 />

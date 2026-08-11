@@ -4,7 +4,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg?v=20">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=20">
-  <img src="./assets/banner.svg?v=20" alt="Naveen Kumar — Developer" width="100%"/>
+  <img
+    src="./assets/banner.svg?v=20"
+    alt="Naveen Kumar — Developer"
+    width="100%"
+  />
 </picture>
 
 </div>
@@ -17,7 +21,11 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./assets/lanyard.svg?v=20" alt="Naveen Kumar Developer ID badge" width="330"/>
+<img
+  src="./assets/lanyard.svg?v=20"
+  alt="Naveen Kumar Developer ID badge"
+  width="330"
+/>
 
 </td>
 
@@ -107,29 +115,37 @@
 
 <br/>
 
+---
+
 ## 🐍 Watch the snake eat my contributions
 
 <div align="center">
 
 <picture>
+
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake-dark.svg?v=30"
   />
+
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg"
+    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg?v=30"
   />
+
   <img
-    src="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg"
+    src="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg?v=30"
     alt="Naveen Kumar GitHub Contribution Snake"
+    width="100%"
   />
+
 </picture>
 
 </div>
 
 <br/>
 
+---
 
 <div align="center">
 

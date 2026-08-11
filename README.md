@@ -118,9 +118,11 @@
 
 <br/><br/>
 
-<div align="center">
+---
 
-### 🐍 Watch the snake eat my contributions
+## 🐍 Watch the snake eat my contributions
+
+<div align="center">
 
 <picture>
   <source
@@ -142,7 +144,7 @@
 
 </div>
 
-<br/><br/>
+---
 
 ### 📫 Let's Connect
 

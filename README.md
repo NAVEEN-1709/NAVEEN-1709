@@ -57,27 +57,37 @@
 </tr>
 </table>
 
-
-
----
-
 ## 📊 GitHub Stats & Graphs
 
 <div align="center">
 
+<table>
+<tr>
+
+<td width="55%" align="center">
+
 <img
-  src="./assets/stats.svg?v=17"
+  src="./assets/stats.svg?v=18"
   alt="Naveen Kumar GitHub Stats"
-  height="185"
+  width="500"
 />
+
+</td>
+
+<td width="45%" align="center">
 
 <img
-  src="./assets/langs.svg?v=17"
+  src="./assets/langs.svg?v=18"
   alt="Naveen Kumar Top Languages"
-  height="185"
+  width="420"
 />
 
-<br/><br/>
+</td>
+
+</tr>
+</table>
+
+<br/>
 
 <!-- 🔥 GitHub Streak -->
 
@@ -101,7 +111,7 @@
 <!-- 🏆 Developer Trophies -->
 
 <img
-  src="./assets/trophies.svg?v=17"
+  src="./assets/trophies.svg?v=18"
   alt="Naveen Kumar GitHub Trophies"
   width="95%"
 />
@@ -111,7 +121,7 @@
 ### 🐍 Watch the snake eat my contributions
 
 <img
-  src="./assets/github-contribution-grid-snake.svg?v=17"
+  src="./assets/github-contribution-grid-snake.svg?v=18"
   alt="Naveen Kumar Contribution Snake"
   width="95%"
 />

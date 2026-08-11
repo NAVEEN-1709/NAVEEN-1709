@@ -57,17 +57,19 @@
 </tr>
 </table>
 
+---
+
 ## 📊 GitHub Stats & Graphs
 
 <div align="center">
 
-<table>
+<table border="0">
 <tr>
 
 <td width="55%" align="center">
 
 <img
-  src="./assets/stats.svg?v=18"
+  src="./assets/stats.svg?v=19"
   alt="Naveen Kumar GitHub Stats"
   width="500"
 />
@@ -77,7 +79,7 @@
 <td width="45%" align="center">
 
 <img
-  src="./assets/langs.svg?v=18"
+  src="./assets/langs.svg?v=19"
   alt="Naveen Kumar Top Languages"
   width="420"
 />
@@ -111,7 +113,7 @@
 <!-- 🏆 Developer Trophies -->
 
 <img
-  src="./assets/trophies.svg?v=18"
+  src="./assets/trophies.svg?v=19"
   alt="Naveen Kumar GitHub Trophies"
   width="95%"
 />
@@ -125,6 +127,7 @@
 <div align="center">
 
 <picture>
+
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake-dark.svg"
@@ -140,9 +143,12 @@
     alt="Naveen Kumar GitHub Contribution Snake"
     width="95%"
   />
+
 </picture>
 
 </div>
+
+---
 
 ---
 

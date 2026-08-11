@@ -2,8 +2,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=13">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=13">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg?v=14">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=14">
     <img src="assets/banner.svg?v=14"
          width="100%"
          alt="Naveen Kumar — Developer">

@@ -44,7 +44,7 @@
 ### 📊 GitHub Stats & Graphs
 
 <img src="./assets/stats.svg?v=20" alt="GitHub Stats" height="185"/>
-<img src="./assets/langs.svg?v=20" alt="Top Languages" height="185"/>
+<img src="./assets/langs.svg?v=21" alt="Top Languages" height="185"/>
 
 <br/><br/>
 
@@ -61,8 +61,15 @@
 <img src="./assets/trophies.svg?v=20" alt="Trophies" width="95%"/>
 
 <br/><br/>
+---
 
-### 🐍 Watch the snake eat my contributions
+## 🐍 Watch the snake eat my contributions
+
+<div align="center">
+
+<table align="center" border="0">
+<tr>
+<td align="center">
 
 <picture>
   <source
@@ -75,12 +82,18 @@
   />
   <img
     src="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg"
-    alt="Contribution snake"
+    alt="Naveen Kumar GitHub Contribution Snake"
+    width="90%"
   />
 </picture>
 
-<br/><br/>
+</td>
+</tr>
+</table>
 
+</div>
+
+<br/>
 ### 📫 Let's Connect
 
 <a href="mailto:nk9997201@gmail.com">

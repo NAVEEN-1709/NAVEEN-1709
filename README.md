@@ -12,13 +12,15 @@
 
 <br>
 
-<img src="assets/lanyard.svg?v=13"
-     width="420"
-     alt="Naveen Kumar Developer ID">
+<p align="center">
+  <img src="assets/lanyard.svg?v=14"
+       width="420"
+       alt="Naveen Kumar Developer ID">
+</p>
 
-<br><br>
+<br>
 
-### ✦ Developer · Python · Web Development · AI ✦
+<h3>✦ Developer · Python · Web Development · AI ✦</h3>
 
 <p>
   <a href="mailto:nk9997201@gmail.com">
@@ -33,9 +35,7 @@
 </p>
 
 <p>
-  <i>
-    "Turning ideas into intelligent software, one commit at a time."
-  </i>
+  <i>"Turning ideas into intelligent software, one commit at a time."</i>
 </p>
 
 </div>
@@ -60,23 +60,17 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <div align="center">
 
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=ffde57" alt="Python">
-
 <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript">
-
 <img src="https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=e34f26" alt="HTML5">
-
 <img src="https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572b6" alt="CSS3">
-
 <img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=38bdf8" alt="SQL">
-
 <img src="https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=ffffff" alt="Flask">
 
+<br>
+
 <img src="https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=150458" alt="Pandas">
-
 <img src="https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=f7931e" alt="Scikit-Learn">
-
 <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=f05032" alt="Git">
-
 <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub">
 
 </div>
@@ -116,9 +110,9 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=13">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats.svg?v=13">
-  <img src="assets/stats.svg?v=13"
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg?v=14">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats.svg?v=14">
+  <img src="assets/stats.svg?v=14"
        width="90%"
        alt="Naveen Kumar developer dashboard">
 </picture>
@@ -126,16 +120,16 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/langs.svg?v=13">
-  <source media="(prefers-color-scheme: light)" srcset="assets/langs.svg?v=13">
-  <img src="assets/langs.svg?v=13"
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs.svg?v=14">
+  <source media="(prefers-color-scheme: light)" srcset="assets/langs.svg?v=14">
+  <img src="assets/langs.svg?v=14"
        width="90%"
        alt="Naveen Kumar technology skills">
 </picture>
 
 <br><br>
 
-<img src="assets/trophies.svg?v=13"
+<img src="assets/trophies.svg?v=14"
      width="90%"
      alt="Developer milestones">
 
@@ -147,7 +141,7 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 
 <div align="center">
 
-<img src="assets/github-contribution-grid-snake.svg?v=13"
+<img src="assets/github-contribution-grid-snake.svg?v=14"
      width="100%"
      alt="GitHub contribution snake">
 
@@ -159,17 +153,23 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
 
 <div align="center">
 
-**Learn → Build → Break → Debug → Improve → Ship → Repeat**
+### **Learn → Build → Break → Debug → Improve → Ship → Repeat**
 
 <br>
 
-💻 Build real projects  
-↓  
-🧠 Learn from problems  
-↓  
-🐛 Debug and improve  
-↓  
-🚀 Ship better software
+💻 **Build real projects**
+
+↓
+
+🧠 **Learn from problems**
+
+↓
+
+🐛 **Debug and improve**
+
+↓
+
+🚀 **Ship better software**
 
 </div>
 
@@ -188,22 +188,6 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
   <img src="https://img.shields.io/badge/GitHub-Follow%20Me-8b5cf6?style=for-the-badge&logo=github&logoColor=white"
        alt="GitHub">
 </a>
-
-<!-- Add LinkedIn when available -->
-<!--
-<a href="YOUR_LINKEDIN_URL">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-       alt="LinkedIn">
-</a>
--->
-
-<!-- Add portfolio when available -->
-<!--
-<a href="YOUR_PORTFOLIO_URL">
-  <img src="https://img.shields.io/badge/Portfolio-Visit-ff4ecd?style=for-the-badge&logo=google-chrome&logoColor=white"
-       alt="Portfolio">
-</a>
--->
 
 <br><br>
 

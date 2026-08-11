@@ -2,14 +2,8 @@
 
 <!-- ✨ Animated Banner ✨ -->
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./assets/banner.svg?v=20"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./assets/banner-light.svg?v=20"
-  />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg?v=20">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=20">
   <img
     src="./assets/banner.svg?v=20"
     alt="Naveen Kumar — Developer"
@@ -62,19 +56,33 @@
 
 ### 📊 GitHub Stats & Graphs
 
+<table align="center" border="0">
+<tr>
+
+<td width="55%" align="center">
+
 <img
   src="./assets/stats.svg?v=20"
   alt="Naveen Kumar GitHub Stats"
-  height="185"
+  width="500"
 />
+
+</td>
+
+<td width="45%" align="center">
 
 <img
   src="./assets/langs.svg?v=21"
   alt="Naveen Kumar Top Languages"
-  height="185"
+  width="420"
 />
 
-<br/><br/>
+</td>
+
+</tr>
+</table>
+
+<br/>
 
 <!-- 🔥 GitHub Streak -->
 
@@ -103,27 +111,35 @@
   width="95%"
 />
 
-<br/><br/>
+</div>
 
-### 🐍 Watch the snake eat my contributions
+<br/>
+
+## 🐍 Watch the snake eat my contributions
+
+<div align="center">
 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake-dark.svg?v=40"
   />
+
   <source
     media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg?v=40"
   />
+
   <img
     src="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg?v=40"
     alt="Naveen Kumar GitHub Contribution Snake"
-    width="95%"
+    width="100%"
   />
 </picture>
 
-<br/><br/>
+</div>
+
+<div align="center">
 
 ### 📫 Let's Connect
 

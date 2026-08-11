@@ -65,58 +65,7 @@
 
 </p>
 
-</div>
 
----
-
-## 👋 About Me
-
-Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical software.
-
-- 🎓 **MCA Graduate**
-- 🐍 **Building with Python** — automation, AI, and data
-- 🌐 **Exploring JavaScript** and modern web development
-- 🗄️ **Working with SQL** and data
-- 🤖 **Building AURA AI** — a personal AI-assistant project
-- 🚀 **Always learning**, experimenting, and improving
-
----
-
-## 🧰 Tech Stack
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=ffde57" alt="Python">
-
-<img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript">
-
-<img src="https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=e34f26" alt="HTML5">
-
-<img src="https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572b6" alt="CSS3">
-
-<img src="https://img.shields.io/badge/Flask-0d1117?style=for-the-badge&logo=flask&logoColor=ffffff" alt="Flask">
-
-<img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=38bdf8" alt="SQL">
-
-<br>
-
-<img src="https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=150458" alt="Pandas">
-
-<img src="https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=4dabcf" alt="NumPy">
-
-<img src="https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=f7931e" alt="Scikit-Learn">
-
-<img src="https://img.shields.io/badge/NLP-0d1117?style=for-the-badge&logo=probot&logoColor=ff4ecd" alt="NLP">
-
-<img src="https://img.shields.io/badge/BERT-0d1117?style=for-the-badge&logo=huggingface&logoColor=ffcc4d" alt="BERT">
-
-<img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=f05032" alt="Git">
-
-<img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub">
-
-</div>
-
----
 
 ## 📊 GitHub Stats & Graphs
 

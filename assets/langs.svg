@@ -7,9 +7,9 @@
 
 <defs>
 
-<style><![CDATA[
+<style>
 text {
-  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 @keyframes fadeUp {
@@ -23,204 +23,158 @@ text {
   }
 }
 
-@keyframes shineX {
-  0% {
-    transform: translateX(-140px);
+@keyframes shine {
+  from {
+    transform: translateX(-160px) skewX(-15deg);
   }
-  60%, 100% {
-    transform: translateX(460px);
+  to {
+    transform: translateX(520px) skewX(-15deg);
   }
 }
 
 .row {
   opacity: 0;
-  animation: fadeUp .5s ease forwards;
+  animation: fadeUp 0.6s ease forwards;
 }
 
-.sh {
-  animation: shineX 4s ease-in-out 2.2s infinite;
+.shine {
+  animation: shine 4s ease-in-out 2s infinite;
 }
-]]></style>
+</style>
 
-<!-- Animated gradient -->
-<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="gradient"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="0">
 
-  <stop offset="0%">
+  <stop offset="0%" stop-color="#ff4ecd">
     <animate
       attributeName="stop-color"
       values="#ff4ecd;#8b5cf6;#ff4ecd"
       dur="6s"
-      repeatCount="indefinite"
-    />
+      repeatCount="indefinite"/>
   </stop>
 
-  <stop offset="100%">
+  <stop offset="100%" stop-color="#8b5cf6">
     <animate
       attributeName="stop-color"
       values="#8b5cf6;#ff4ecd;#8b5cf6"
       dur="6s"
-      repeatCount="indefinite"
-    />
+      repeatCount="indefinite"/>
   </stop>
 
 </linearGradient>
 
-<!-- Shine -->
-<linearGradient id="shg" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="shineGradient"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="0">
 
-  <stop
-    offset="0%"
-    stop-color="#fff"
-    stop-opacity="0"
-  />
-
-  <stop
-    offset="50%"
-    stop-color="#fff"
-    stop-opacity=".08"
-  />
-
-  <stop
-    offset="100%"
-    stop-color="#fff"
-    stop-opacity="0"
-  />
+  <stop offset="0%" stop-color="white" stop-opacity="0"/>
+  <stop offset="50%" stop-color="white" stop-opacity="0.08"/>
+  <stop offset="100%" stop-color="white" stop-opacity="0"/>
 
 </linearGradient>
 
-<!-- Card clip -->
-<clipPath id="cardc">
+<clipPath id="cardClip">
   <rect
     x="1"
     y="1"
     width="418"
     height="280"
-    rx="14"
-  />
-</clipPath>
-
-<!-- Animated stack -->
-<clipPath id="stackc">
-
-  <rect
-    x="20"
-    y="58"
-    width="0"
-    height="11"
-    rx="5.5"
-  >
-
-    <animate
-      attributeName="width"
-      from="0"
-      to="380"
-      dur="1.4s"
-      begin=".4s"
-      fill="freeze"
-      calcMode="spline"
-      keySplines=".2 .8 .3 1"
-    />
-
-  </rect>
-
+    rx="14"/>
 </clipPath>
 
 </defs>
 
 <!-- Background -->
+
 <rect
   x="1"
   y="1"
   width="418"
   height="280"
   rx="14"
-  fill="#0d0b17"
-  stroke="url(#tg)"
-  stroke-width="1.5"
-/>
+  fill="#170e28"
+  stroke="url(#gradient)"
+  stroke-width="1.5"/>
 
 <!-- Title -->
+
 <text
   x="20"
   y="34"
   font-size="16"
   font-weight="bold"
-  fill="url(#tg)"
->
-  🧰 Naveen Kumar — Tech Stack
+  fill="url(#gradient)">
+  Naveen Kumar - Tech Stack
 </text>
 
-<!-- Skill stack -->
+<!-- Top skill overview -->
 
-<g clip-path="url(#stackc)">
+<rect
+  x="20"
+  y="58"
+  width="380"
+  height="11"
+  rx="5.5"
+  fill="#241740"/>
 
-  <!-- Python -->
-  <rect
-    x="20"
-    y="58"
-    width="125"
-    height="11"
-    fill="#ff7a59"
-  />
+<rect
+  x="20"
+  y="58"
+  width="125"
+  height="11"
+  rx="5.5"
+  fill="#ff7a59"/>
 
-  <!-- AI / ML -->
-  <rect
-    x="145"
-    y="58"
-    width="95"
-    height="11"
-    fill="#c084fc"
-  />
+<rect
+  x="145"
+  y="58"
+  width="95"
+  height="11"
+  fill="#c084fc"/>
 
-  <!-- JavaScript -->
-  <rect
-    x="240"
-    y="58"
-    width="65"
-    height="11"
-    fill="#fde047"
-  />
+<rect
+  x="240"
+  y="58"
+  width="65"
+  height="11"
+  fill="#fde047"/>
 
-  <!-- HTML -->
-  <rect
-    x="305"
-    y="58"
-    width="45"
-    height="11"
-    fill="#7dd3fc"
-  />
+<rect
+  x="305"
+  y="58"
+  width="45"
+  height="11"
+  fill="#38bdf8"/>
 
-  <!-- CSS -->
-  <rect
-    x="350"
-    y="58"
-    width="30"
-    height="11"
-    fill="#60a5fa"
-  />
-
-</g>
+<rect
+  x="350"
+  y="58"
+  width="50"
+  height="11"
+  rx="5.5"
+  fill="#60a5fa"/>
 
 <!-- Python -->
-<g
-  class="row"
-  style="animation-delay:0.90s"
->
+
+<g class="row" style="animation-delay:0.5s">
 
   <circle
     cx="26"
     cy="91"
     r="5"
-    fill="#ff7a59"
-  />
+    fill="#ff7a59"/>
 
   <text
     x="40"
     y="96"
     font-size="13"
     fill="#e6edf3"
-    font-weight="bold"
-  >
+    font-weight="bold">
     Python
   </text>
 
@@ -230,9 +184,8 @@ text {
     text-anchor="end"
     font-size="13"
     fill="#ff7a59"
-    font-weight="bold"
-  >
-    Advanced
+    font-weight="bold">
+    90%
   </text>
 
   <rect
@@ -241,54 +194,44 @@ text {
     width="268"
     height="9"
     rx="4.5"
-    fill="#241740"
-  />
+    fill="#241740"/>
 
   <rect
     x="40"
     y="104"
-    width="246"
-.56"
+    width="241.2"
     height="9"
     rx="4.5"
-    fill="#ff7a59"
-  >
+    fill="#ff7a59">
 
     <animate
       attributeName="width"
       from="0"
-      to="246.56"
+      to="241.2"
       dur="1.1s"
-      begin="1.05s"
-      fill="freeze"
-      calcMode="spline"
-      keySplines=".2 .8 .3 1"
-    />
+      begin="0.8s"
+      fill="freeze"/>
 
   </rect>
 
 </g>
 
 <!-- AI / ML -->
-<g
-  class="row"
-  style="animation-delay:1.25s"
->
+
+<g class="row" style="animation-delay:0.8s">
 
   <circle
     cx="26"
     cy="133"
     r="5"
-    fill="#c084fc"
-  />
+    fill="#c084fc"/>
 
   <text
     x="40"
     y="138"
     font-size="13"
     fill="#e6edf3"
-    font-weight="bold"
-  >
+    font-weight="bold">
     AI / ML
   </text>
 
@@ -298,8 +241,7 @@ text {
     text-anchor="end"
     font-size="13"
     fill="#c084fc"
-    font-weight="bold"
-  >
+    font-weight="bold">
     80%
   </text>
 
@@ -309,8 +251,7 @@ text {
     width="268"
     height="9"
     rx="4.5"
-    fill="#241740"
-  />
+    fill="#241740"/>
 
   <rect
     x="40"
@@ -318,44 +259,36 @@ text {
     width="214.4"
     height="9"
     rx="4.5"
-    fill="#c084fc"
-  >
+    fill="#c084fc">
 
     <animate
       attributeName="width"
       from="0"
       to="214.4"
       dur="1.1s"
-      begin="1.40s"
-      fill="freeze"
-      calcMode="spline"
-      keySplines=".2 .8 .3 1"
-    />
+      begin="1.1s"
+      fill="freeze"/>
 
   </rect>
 
 </g>
 
 <!-- JavaScript -->
-<g
-  class="row"
-  style="animation-delay:1.60s"
->
+
+<g class="row" style="animation-delay:1.1s">
 
   <circle
     cx="26"
     cy="175"
     r="5"
-    fill="#fde047"
-  />
+    fill="#fde047"/>
 
   <text
     x="40"
     y="180"
     font-size="13"
     fill="#e6edf3"
-    font-weight="bold"
-  >
+    font-weight="bold">
     JavaScript
   </text>
 
@@ -365,8 +298,7 @@ text {
     text-anchor="end"
     font-size="13"
     fill="#fde047"
-    font-weight="bold"
-  >
+    font-weight="bold">
     65%
   </text>
 
@@ -376,8 +308,7 @@ text {
     width="268"
     height="9"
     rx="4.5"
-    fill="#241740"
-  />
+    fill="#241740"/>
 
   <rect
     x="40"
@@ -385,44 +316,36 @@ text {
     width="174.2"
     height="9"
     rx="4.5"
-    fill="#fde047"
-  >
+    fill="#fde047">
 
     <animate
       attributeName="width"
       from="0"
       to="174.2"
       dur="1.1s"
-      begin="1.75s"
-      fill="freeze"
-      calcMode="spline"
-      keySplines=".2 .8 .3 1"
-    />
+      begin="1.4s"
+      fill="freeze"/>
 
   </rect>
 
 </g>
 
 <!-- Flask / Web -->
-<g
-  class="row"
-  style="animation-delay:1.95s"
->
+
+<g class="row" style="animation-delay:1.4s">
 
   <circle
     cx="26"
     cy="217"
     r="5"
-    fill="#60a5fa"
-  />
+    fill="#38bdf8"/>
 
   <text
     x="40"
     y="222"
     font-size="13"
     fill="#e6edf3"
-    font-weight="bold"
-  >
+    font-weight="bold">
     Flask / Web
   </text>
 
@@ -431,9 +354,8 @@ text {
     y="222"
     text-anchor="end"
     font-size="13"
-    fill="#60a5fa"
-    font-weight="bold"
-  >
+    fill="#38bdf8"
+    font-weight="bold">
     75%
   </text>
 
@@ -443,8 +365,7 @@ text {
     width="268"
     height="9"
     rx="4.5"
-    fill="#241740"
-  />
+    fill="#241740"/>
 
   <rect
     x="40"
@@ -452,36 +373,31 @@ text {
     width="201"
     height="9"
     rx="4.5"
-    fill="#60a5fa"
-  >
+    fill="#38bdf8">
 
     <animate
       attributeName="width"
       from="0"
       to="201"
       dur="1.1s"
-      begin="2.10s"
-      fill="freeze"
-      calcMode="spline"
-      keySplines=".2 .8 .3 1"
-    />
+      begin="1.7s"
+      fill="freeze"/>
 
   </rect>
 
 </g>
 
 <!-- Shine -->
-<g clip-path="url(#cardc)">
+
+<g clip-path="url(#cardClip)">
 
   <rect
-    class="sh"
+    class="shine"
     x="0"
     y="0"
     width="100"
     height="282"
-    fill="url(#shg)"
-    transform="skewX(-15)"
-  />
+    fill="url(#shineGradient)"/>
 
 </g>
 

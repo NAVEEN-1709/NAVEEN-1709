@@ -171,7 +171,7 @@ Hi, I'm **Naveen Kumar**, a developer who enjoys turning ideas into practical so
     srcset="./assets/stats.svg?v=15"
   />
   <img
-    src="./assets/stats.svg?v=15"
+    src="./assets/stats.svg?v=16"
     width="90%"
     alt="Naveen Kumar Developer Dashboard"
   />

@@ -39,28 +39,6 @@
 </tr>
 </table>
 
-<br/>
-
-<div align="center">
-
-### ✦ Developer · Python · Web Development · AI ✦
-
-<p>
-
-<a href="mailto:nk9997201@gmail.com">
-<img src="https://img.shields.io/badge/Email-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-<a href="https://github.com/NAVEEN-1709">
-<img src="https://img.shields.io/badge/GitHub-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-
-</p>
-
-</div>
-
-<br/>
-
 <div align="center">
 
 ### 📊 GitHub Stats & Graphs

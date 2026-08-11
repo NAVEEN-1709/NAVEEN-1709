@@ -115,37 +115,29 @@
 
 <br/>
 
----
-
 ## 🐍 Watch the snake eat my contributions
 
 <div align="center">
 
 <picture>
-
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake-dark.svg?v=30"
+    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake-dark.svg?v=40"
   />
 
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg?v=30"
+    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg?v=40"
   />
 
   <img
-    src="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg?v=30"
+    src="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg?v=40"
     alt="Naveen Kumar GitHub Contribution Snake"
     width="100%"
   />
-
 </picture>
 
 </div>
-
-<br/>
-
----
 
 <div align="center">
 

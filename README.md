@@ -1,10 +1,20 @@
 <div align="center">
 
-<!-- ✨ Animated Banner ✨ -->
+<!-- ✨ Animated Developer Banner ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg?v=17">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=17">
-  <img src="./assets/banner.svg?v=17" alt="Naveen Kumar — Developer" width="100%"/>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/banner.svg?v=17"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/banner-light.svg?v=17"
+  />
+  <img
+    src="./assets/banner.svg?v=17"
+    alt="Naveen Kumar — Developer"
+    width="100%"
+  />
 </picture>
 
 </div>
@@ -14,13 +24,18 @@
 <table align="center" border="0">
 <tr>
 
+<!-- 🪪 Swinging Developer ID Card -->
 <td width="38%" align="center" valign="middle">
 
-<!-- 🪪 Swinging Developer ID Card -->
-<img src="./assets/lanyard.svg?v=17" alt="Naveen Kumar Developer ID badge" width="330"/>
+<img
+  src="./assets/lanyard.svg?v=17"
+  alt="Naveen Kumar Developer ID badge"
+  width="330"
+/>
 
 </td>
 
+<!-- 🚀 Projects -->
 <td width="62%" valign="middle">
 
 ### 🚀 My Projects
@@ -29,7 +44,7 @@
 |:---|:---:|
 | 🤖 **AURA AI** | `Python` `AI` |
 | 📄 **Resume Screening System** | `Python` `Flask` `NLP` `BERT` |
-| 📐 **Geometry Calculator** | `Flask` `HTML` `CSS` `JS` |
+| 📐 **Geometry Calculator** | `Flask` `HTML` `CSS` `JavaScript` |
 | 🧠 **Stroke Prediction** | `Python` `Pandas` `Scikit-Learn` |
 | 📊 **Customer Churn Prediction** | `Python` `Pandas` `Scikit-Learn` |
 
@@ -38,21 +53,53 @@
 > 💜 *"Turning ideas into intelligent software, one commit at a time."*
 
 </td>
+
 </tr>
 </table>
 
 <br/>
 
+<div align="center">
 
+### ✦ Developer · Python · Web Development · AI ✦
 
+<p>
+
+<a href="mailto:nk9997201@gmail.com">
+  <img
+    src="https://img.shields.io/badge/Email-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white"
+    alt="Email"
+  />
+</a>
+
+<a href="https://github.com/NAVEEN-1709">
+  <img
+    src="https://img.shields.io/badge/GitHub-8b5cf6?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub"
+  />
+</a>
+
+</p>
+
+</div>
+
+---
 
 ## 📊 GitHub Stats & Graphs
 
 <div align="center">
 
-<img src="./assets/stats.svg?v=17" alt="Naveen Kumar GitHub Stats" height="185"/>
+<img
+  src="./assets/stats.svg?v=17"
+  alt="Naveen Kumar GitHub Stats"
+  height="185"
+/>
 
-<img src="./assets/langs.svg?v=17" alt="Naveen Kumar Technology Skills" height="185"/>
+<img
+  src="./assets/langs.svg?v=17"
+  alt="Naveen Kumar Top Languages"
+  height="185"
+/>
 
 <br/><br/>
 

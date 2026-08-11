@@ -118,13 +118,29 @@
 
 <br/><br/>
 
+<div align="center">
+
 ### 🐍 Watch the snake eat my contributions
 
-<img
-  src="./assets/github-contribution-grid-snake.svg?v=18"
-  alt="Naveen Kumar Contribution Snake"
-  width="95%"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg"
+  />
+
+  <img
+    src="https://raw.githubusercontent.com/NAVEEN-1709/NAVEEN-1709/output/github-contribution-grid-snake.svg"
+    alt="Naveen Kumar GitHub Contribution Snake"
+    width="95%"
+  />
+</picture>
+
+</div>
 
 <br/><br/>
 

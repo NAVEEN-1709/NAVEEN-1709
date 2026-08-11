@@ -4,14 +4,14 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="./assets/banner.svg?v=17"
+    srcset="./assets/banner.svg?v=20"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="./assets/banner-light.svg?v=17"
+    srcset="./assets/banner-light.svg?v=20"
   />
   <img
-    src="./assets/banner.svg?v=17"
+    src="./assets/banner.svg?v=20"
     alt="Naveen Kumar — Developer"
     width="100%"
   />
@@ -24,12 +24,12 @@
 <table align="center" border="0">
 <tr>
 
-<!-- 🪪 Swinging Developer ID Card -->
+<!-- 🪪 Developer ID Card -->
 <td width="38%" align="center" valign="middle">
 
 <img
-  src="./assets/lanyard.svg?v=17"
-  alt="Naveen Kumar Developer ID badge"
+  src="./assets/lanyard.svg?v=20"
+  alt="Naveen Kumar Developer ID"
   width="330"
 />
 
@@ -44,7 +44,7 @@
 |:---|:---:|
 | 🤖 **AURA AI** | `Python` `AI` |
 | 📄 **Resume Screening System** | `Python` `Flask` `NLP` `BERT` |
-| 📐 **Geometry Calculator** | `Flask` `HTML` `CSS` `JavaScript` |
+| 📐 **Geometry Calculator** | `Flask` `HTML` `CSS` `JS` |
 | 🧠 **Stroke Prediction** | `Python` `Pandas` `Scikit-Learn` |
 | 📊 **Customer Churn Prediction** | `Python` `Pandas` `Scikit-Learn` |
 
@@ -56,6 +56,34 @@
 
 </tr>
 </table>
+
+<br/>
+
+<div align="center">
+
+### ✦ Developer · Python · Web Development · AI ✦
+
+<p>
+
+<a href="mailto:nk9997201@gmail.com">
+  <img
+    src="https://img.shields.io/badge/Email-ff4ecd?style=for-the-badge&logo=gmail&logoColor=white"
+    alt="Email"
+  />
+</a>
+
+<a href="https://github.com/NAVEEN-1709">
+  <img
+    src="https://img.shields.io/badge/GitHub-8b5cf6?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub"
+  />
+</a>
+
+</p>
+
+</div>
+
+<br/>
 
 ---
 
@@ -69,7 +97,7 @@
 <td width="55%" align="center">
 
 <img
-  src="./assets/stats.svg?v=19"
+  src="./assets/stats.svg?v=20"
   alt="Naveen Kumar GitHub Stats"
   width="500"
 />
@@ -79,7 +107,7 @@
 <td width="45%" align="center">
 
 <img
-  src="./assets/langs.svg?v=19"
+  src="./assets/langs.svg?v=20"
   alt="Naveen Kumar Top Languages"
   width="420"
 />
@@ -113,12 +141,14 @@
 <!-- 🏆 Developer Trophies -->
 
 <img
-  src="./assets/trophies.svg?v=19"
+  src="./assets/trophies.svg?v=20"
   alt="Naveen Kumar GitHub Trophies"
   width="95%"
 />
 
-<br/><br/>
+</div>
+
+<br/>
 
 ---
 
@@ -148,9 +178,11 @@
 
 </div>
 
----
+<br/>
 
 ---
+
+<div align="center">
 
 ### 📫 Let's Connect
 

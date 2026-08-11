@@ -1,56 +1,371 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 500 232"
+     width="500"
+     height="232"
+     role="img"
+     aria-label="Naveen Kumar Developer Dashboard">
 
 <defs>
-  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#ff4ecd"/><stop offset=".5" stop-color="#c084fc"/><stop offset="1" stop-color="#8b5cf6"/>
-  </linearGradient>
-  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/>
-  </linearGradient>
-  <filter id="glow" x="-50%" y="-100%" width="200%" height="300%">
-    <feGaussianBlur stdDeviation="3" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <style>
-    .ui{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
-    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-    .panel{fill:#11131b;stroke:#ffffff;stroke-opacity:.08}
-    .barbg{fill:#07152d}
-    .a{animation:in .7s cubic-bezier(.2,.8,.2,1) both}
-    .d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}.d4{animation-delay:.6s}.d5{animation-delay:.75s}
-    @keyframes in{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:translateX(0)}}
-    .pulse{animation:p 2.5s ease-in-out infinite}
-    @keyframes p{50%{opacity:.65}}
-    .shine{animation:s 4.5s ease-in-out infinite}
-    @keyframes s{0%,35%{transform:translateX(-520px);opacity:0}45%{opacity:.55}65%{transform:translateX(520px);opacity:0}100%{transform:translateX(520px);opacity:0}}
-  </style>
+
+<style><![CDATA[
+text {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateX(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rankPulse {
+  0%, 100% {
+    opacity: .85;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes shineX {
+  0% {
+    transform: translateX(-160px) skewX(-15deg);
+  }
+  60%, 100% {
+    transform: translateX(560px) skewX(-15deg);
+  }
+}
+
+.row {
+  opacity: 0;
+  animation: fadeSlide .5s ease forwards;
+}
+
+.rk {
+  animation: rankPulse 2.4s ease-in-out infinite;
+}
+
+.sh {
+  animation: shineX 4.5s ease-in-out 2.4s infinite;
+}
+]]></style>
+
+<!-- Animated title gradient -->
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%">
+    <animate
+      attributeName="stop-color"
+      values="#ff4ecd;#8b5cf6;#ff4ecd"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </stop>
+
+  <stop offset="100%">
+    <animate
+      attributeName="stop-color"
+      values="#8b5cf6;#ff4ecd;#8b5cf6"
+      dur="6s"
+      repeatCount="indefinite"
+    />
+  </stop>
+</linearGradient>
+
+<!-- Rank ring -->
+<linearGradient id="ringg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#ff4ecd"/>
+  <stop offset="100%" stop-color="#8b5cf6"/>
+</linearGradient>
+
+<!-- Shine -->
+<linearGradient id="shg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+  <stop offset="50%" stop-color="#fff" stop-opacity=".07"/>
+  <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+
+<!-- Card clipping -->
+<clipPath id="cc">
+  <rect
+    x="1"
+    y="1"
+    width="498"
+    height="230"
+    rx="14"
+  />
+</clipPath>
+
+<!-- Glow -->
+<filter id="g">
+  <feGaussianBlur
+    stdDeviation="2"
+    result="b"
+  />
+
+  <feMerge>
+    <feMergeNode in="b"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
 </defs>
 
-<rect width="1000" height="330" rx="28" fill="#0d1117"/>
-<rect x="1" y="1" width="998" height="328" rx="27" fill="none" stroke="url(#pink)" stroke-opacity=".35"/>
-<text x="40" y="48" class="ui" font-size="22" font-weight="800" fill="#fff">GitHub Dashboard</text>
-<text x="40" y="70" class="mono" font-size="11" fill="#8e879c">NAVEEN-1709 • BUILD • LEARN • SHIP</text>
+<!-- Main card -->
+<rect
+  x="1"
+  y="1"
+  width="498"
+  height="230"
+  rx="14"
+  fill="#0d0b17"
+  stroke="url(#tg)"
+  stroke-width="1.5"
+/>
 
-<!-- rank ring -->
-<g transform="translate(155 190)">
- <circle r="88" fill="#09101f" stroke="#ffffff" stroke-opacity=".06" stroke-width="14"/>
- <circle r="88" fill="none" stroke="#152a4b" stroke-width="14"/>
- <circle r="88" fill="none" stroke="url(#blue)" stroke-width="14" stroke-linecap="round"
-         stroke-dasharray="410 553" transform="rotate(-90)" class="pulse"/>
- <text y="-8" text-anchor="middle" class="ui" font-size="26" font-weight="800" fill="#dff5ff">DEV</text>
- <text y="17" text-anchor="middle" class="mono" font-size="11" fill="#9ba9bf">PROFILE</text>
+<!-- Header -->
+<text
+  x="24"
+  y="38"
+  font-size="16"
+  font-weight="bold"
+  fill="url(#tg)"
+>
+  💜 Naveen Kumar's Developer Dashboard
+</text>
+
+<!-- PROJECTS -->
+<g
+  class="row"
+  style="animation-delay:0.50s"
+>
+
+  <text x="24" y="74" font-size="14">🚀</text>
+
+  <text
+    x="52"
+    y="74"
+    font-size="13.5"
+    fill="#c9d1d9"
+  >
+    Featured Projects:
+  </text>
+
+  <text
+    x="316"
+    y="74"
+    text-anchor="end"
+    font-size="14"
+    font-weight="bold"
+    fill="#ff4ecd"
+  >
+    5+
+  </text>
+
 </g>
 
-<!-- rows -->
-<g transform="translate(305 102)">
- <text class="ui a d1" font-size="14" font-weight="700" fill="#fff">Projects <tspan x="570" fill="#ff8cdd">5</tspan></text>
- <rect y="14" width="610" height="10" rx="5" class="barbg"/><rect y="14" width="420" height="10" rx="5" fill="url(#pink)" class="a d1"/>
- <text y="66" class="ui a d2" font-size="14" font-weight="700" fill="#fff">Learning <tspan x="570" fill="#c9b5ff">85%</tspan></text>
- <rect y="80" width="610" height="10" rx="5" class="barbg"/><rect y="80" width="520" height="10" rx="5" fill="#8b5cf6" class="a d2"/>
- <text y="132" class="ui a d3" font-size="14" font-weight="700" fill="#fff">Build Focus <tspan x="570" fill="#8ddfff">90%</tspan></text>
- <rect y="146" width="610" height="10" rx="5" class="barbg"/><rect y="146" width="550" height="10" rx="5" fill="#38bdf8" class="a d3"/>
- <text y="198" class="ui a d4" font-size="14" font-weight="700" fill="#fff">AURA AI <tspan x="570" fill="#ff8cdd">ACTIVE</tspan></text>
- <rect y="212" width="610" height="10" rx="5" class="barbg"/><rect y="212" width="360" height="10" rx="5" fill="url(#blue)" class="a d4"/>
+<!-- SKILLS -->
+<g
+  class="row"
+  style="animation-delay:0.72s"
+>
+
+  <text x="24" y="105" font-size="14">🧰</text>
+
+  <text
+    x="52"
+    y="105"
+    font-size="13.5"
+    fill="#c9d1d9"
+  >
+    Core Skills:
+  </text>
+
+  <text
+    x="316"
+    y="105"
+    text-anchor="end"
+    font-size="14"
+    font-weight="bold"
+    fill="#7dd3fc"
+  >
+    Python · AI
+  </text>
+
 </g>
+
+<!-- FOCUS -->
+<g
+  class="row"
+  style="animation-delay:0.94s"
+>
+
+  <text x="24" y="136" font-size="14">🤖</text>
+
+  <text
+    x="52"
+    y="136"
+    font-size="13.5"
+    fill="#c9d1d9"
+  >
+    Current Focus:
+  </text>
+
+  <text
+    x="316"
+    y="136"
+    text-anchor="end"
+    font-size="14"
+    font-weight="bold"
+    fill="#4ade80"
+  >
+    AI + Web
+  </text>
+
+</g>
+
+<!-- PROJECT -->
+<g
+  class="row"
+  style="animation-delay:1.16s"
+>
+
+  <text x="24" y="167" font-size="14">⚡</text>
+
+  <text
+    x="52"
+    y="167"
+    font-size="13.5"
+    fill="#c9d1d9"
+  >
+    Main Project:
+  </text>
+
+  <text
+    x="316"
+    y="167"
+    text-anchor="end"
+    font-size="14"
+    font-weight="bold"
+    fill="#c084fc"
+  >
+    AURA AI
+  </text>
+
+</g>
+
+<!-- EDUCATION -->
+<g
+  class="row"
+  style="animation-delay:1.38s"
+>
+
+  <text x="24" y="198" font-size="14">🎓</text>
+
+  <text
+    x="52"
+    y="198"
+    font-size="13.5"
+    fill="#c9d1d9"
+  >
+    Education:
+  </text>
+
+  <text
+    x="316"
+    y="198"
+    text-anchor="end"
+    font-size="14"
+    font-weight="bold"
+    fill="#ff4ecd"
+  >
+    MCA Graduate
+  </text>
+
+</g>
+
+<!-- Developer rank ring -->
+<g transform="translate(408,138)">
+
+  <circle
+    r="52"
+    fill="none"
+    stroke="#171126"
+    stroke-width="9"
+  />
+
+  <circle
+    r="52"
+    fill="none"
+    stroke="url(#ringg)"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-dasharray="254.8 326.7"
+    stroke-dashoffset="254.8"
+    transform="rotate(-90)"
+  >
+
+    <animate
+      attributeName="stroke-dashoffset"
+      from="254.8"
+      to="0"
+      dur="1.6s"
+      begin=".6s"
+      fill="freeze"
+      calcMode="spline"
+      keySplines=".2 .8 .3 1"
+    />
+
+  </circle>
+
+  <text
+    class="rk"
+    y="14"
+    text-anchor="middle"
+    font-size="40"
+    font-weight="bold"
+    fill="#ff4ecd"
+    filter="url(#g)"
+  >
+    N
+  </text>
+
+  <text
+    y="76"
+    text-anchor="middle"
+    font-size="10.5"
+    fill="#8b949e"
+    opacity="0"
+    style="animation:fadeIn .5s ease 1.8s forwards"
+  >
+    NAVEEN-1709
+  </text>
+
+</g>
+
+<!-- Animated shine -->
+<g clip-path="url(#cc)">
+  <rect
+    class="sh"
+    x="0"
+    y="0"
+    width="120"
+    height="232"
+    fill="url(#shg)"
+  />
+</g>
+
 </svg>
